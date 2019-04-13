@@ -5,3 +5,8 @@
 подробная информация о создании бота и получении токена https://github.com/reactiflux/discord-irc/wiki/Creating-a-discord-bot-&-getting-a-token
 
 Ид канала можно получить включив режим разработчика в Настройки\Внешний вид в discord, после этого в контекстном меню канала появится строка "Копировать ID"
+
+Для работы необходим  
+  discord.py https://github.com/Rapptz/discord.py
+  Python 3.5.3
+
