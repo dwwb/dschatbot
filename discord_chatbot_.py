@@ -29,26 +29,10 @@ async def on_message(message):
 		msg = 'Это тестовое сообщение о появлении  ' + boss_list[args(0)] + ' и ' + boss_list[args(1)].format(message)
 		await client.send_message(channel, msg)
 
-	if message.content.startswith('да чтобы ты сдох, пидор'):
-		channel = discord.Object(id='456714454269427725')
-		msg = 'Сам пидор {0.author.mention}'.format(message)
-		await client.send_message(channel, msg)
-
-	if message.content.startswith('сука'):
-		channel = discord.Object(id='456714454269427725')
-		msg = 'Иди отсюда нахуй {0.author.mention}'.format(message)
-		await client.send_message(channel, msg)
-
 
 @client.event		
 async def boss_scheduler(b1=1, b2=2):
 		msg = '@everyone Через 20 минут появятся  ' + boss_list[b1] + ' и ' + boss_list[b2]
-		print(msg)
-		await client.send_message(channel, msg)
-		
-@client.event
-async def guru():
-		msg = 'Это тестовое сообщение, оскорбляющее гуру!'
 		print(msg)
 		await client.send_message(channel, msg)
 		
