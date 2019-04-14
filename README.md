@@ -7,6 +7,7 @@
 Ид канала можно получить включив режим разработчика в Настройки\Внешний вид в discord, после этого в контекстном меню канала появится строка "Копировать ID"
 
 Для работы необходим  
-  discord.py https://github.com/Rapptz/discord.py
-  Python 3.5.3
+  Python 3.5.3 <br>
+  discord.py==0.16.22 https://github.com/Rapptz/discord.py <br>
+  apsheduler https://apscheduler.readthedocs.io/en/latest/userguide.html
 
